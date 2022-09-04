@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/carproject" mode="merge"/>
+    <filter root="/content/carproject" mode="merge"/>
+    <filter root="/content/dam/carproject/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/carproject" mode="merge"/>
+</workspaceFilter>

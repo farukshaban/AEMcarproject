@@ -1,0 +1,15 @@
+<div class="fscars-wrapper" data-sly-use.model="com.carproject.core.models.CarFilterModel">
+    <h2>Select your Car Brand and Model</h2>
+    <div class="fscars-holder" data-sly-list="${model.filteredCars}">
+        <div class="fscar-card">
+            <div class="header">
+                <h3>${item.brand} ${item.model}</h3>
+            </div>
+            <div class="features">
+                <p class="year">${item.year}</p>
+                <p class="feature">${item.km}km</p>
+            </div>
+            <input type="button" value="Buy" />
+        </div>
+    </div>
+</div>
